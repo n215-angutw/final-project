@@ -1,0 +1,106 @@
+.footer{
+    height: 470px;
+    background-color: $citepink;
+}
+
+.footer-logo{
+    width: 92px;
+    max-height: 30px;
+    background-color: none;
+    margin: 0 auto;
+    background-image: url(../images/logo/logo-white.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 150px;
+}
+
+.footer-info{
+    color: $citewhite;
+    text-align: center;
+    margin: 0 auto;
+    font-weight: lighter;
+    line-height: 25px;
+}
+
+.join{
+    width: 570px;
+    height: 60px;
+    background-color: #F56B88;
+    margin: 0 auto;
+    margin-top: 30px;
+    display: flex;
+    margin-top: 40px;
+
+    .um{
+        font-size: 16px;
+        color: $citewhite;
+        padding: 20px;
+        text-align: left;
+    }
+
+
+    .subs{
+        width: 167px;
+        height: 60px;
+        background-color: $citewhite;
+        color: $citepink;
+        text-align: center;
+        font-weight: lighter;
+        letter-spacing: 2px;
+        padding-top: 20px;
+        margin-left: 115px;
+    }
+}
+
+.icons{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: none;
+    width: 12%;
+    margin: 0 auto;
+
+    .icon-one{
+        background-color: none;
+        width: 31px;
+        height: 31px;
+        margin-top: 40px;
+        background-image: url(../images/social-media/facebook.svg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .icon-two{
+        background-color: none;
+        width: 31px;
+        height: 31px;
+        margin-top: 40px;
+        background-image: url(../images/social-media/instagram.svg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        
+    }
+
+    .icon-three{
+        background-color: none;
+        width: 31px;
+        height: 31px;
+        margin-top: 40px;
+        background-image: url(../images/social-media/twitter.svg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+}
+
+.copy{
+    color: $citewhite;
+    background-color: none;
+    width: 30%;
+    margin: 0 auto;
+    margin-top: 30px;
+    text-align: center;
+    font-size: 12px;
+}
+

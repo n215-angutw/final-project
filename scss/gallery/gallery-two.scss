@@ -1,0 +1,66 @@
+.gallery-one{
+    background-color: none;
+    height: 20px;
+}
+
+.gal-content-two{
+    width: 980px;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+.gal-hero-two{
+    height: 400px;
+    background-image: url(../images/gallery/2.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: inset 0 0 0 99999px rgba(238, 67, 103, 0.7);
+}
+
+.gal-number-two{
+    color: $citepink;
+    font-size: 330px;
+    margin-top: -300px;
+    text-shadow: 3px 1px 7px rgba(0,0,0,0.44);
+
+}
+
+.gal-word-two{
+    //color: $citeyellow;
+    color: $citepink;
+    font-size: 130px;
+    margin-top: -199px;
+    margin-left: 270px;
+    text-shadow: 3px 1px 13px rgba(0,0,0,0.44);
+}
+
+.gal-texts{
+    height: 100%;
+    width: 980px;
+    margin: 0 auto;
+    background-color: none;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    margin-bottom: 90px;
+
+    .gal-textONE{
+        width: 490px;
+        height: 130px;
+        background-color: none;
+        color: grey;
+        font-style: italic;
+        line-height: 20px;
+        font-size: 16px;
+    }
+
+    .gal-textTWO{
+        width: 451px;
+        height: 133px;
+        background-color: none;
+        color: grey;
+        font-style: italic;
+        line-height: 20px;
+        font-size: 16px;
+    }
+}
